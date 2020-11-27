@@ -1,0 +1,9 @@
+<jmix = 'http://www.jahia.org/jahia/mix/1.0'>
+<jnt = 'http://www.jahia.org/jahia/nt/1.0'>
+<lmnmix = 'http://www.jahia.com/lmnmix'>
+
+[lmnmix:tartaucitron] mixin
+ extends = jnt:virtualsite
+ - isCloud (boolean, text)
+ - idTarteAuCitron (string)
+
